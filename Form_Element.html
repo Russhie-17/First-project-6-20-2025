@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>Form_Element</title>
+
+		<script>
+			function hello()
+		{
+			var name=document.frmForm.txtFullname.value;
+			alert('Hello' +name);
+		}
+
+		</script>
+
+
+		<style type="text/css">
+		body{
+			background-image: url("cf.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+       			 background-position: center;
+
+			
+	
+		}
+
+		</style>
+	</head>
+	<body>
+				
+
+		<h1 align="center" style="text-shadow: 1px 2px 2px #CE5937;"> HTML Form Elements </h1>
+
+						
+
+		<form name="frmForm">
+
+		<h2 style="color: white;">Text input</h2>
+		<p style="color: white;">Fullname:<input type="text" name="txtFullname" paceholder="Enter your name" autofocus><br><br></p>
+		<p style="color: white;">Password:<input type="text" name="txtPassword"></p><br><br>
+
+		<h3 style="color: white;"> Radio Buttons </h3></p>
+		<p style="color: white;"> Choose your gender </p>
+		<p style="color: white;"> <input type="radio" name="optGender" value="male"> Male <br>
+		<input type="radio" name="optGender" value="female"> Female <br></p>
+	
+		<h3 style="color: white;">Checkbox</h3>
+		<p  style="color: white;">Select your Sport</p><br>
+		 <p style="color: white;"><input type="checkbox" name="chkVolleyball" value="volleyball"> Volleyball <br>
+		<input type="checkbox" name="chkBasketball" value="basketball"> Basketball <br>
+		<input type="checkbox" name="chkChess" value="chess"> Chess <br>
+		<input type="checkbox" name="chkTakraw" value="takraw"> Takraw <br>
+		<input type="checkbox" name="chkdance" value="dance"> Dance <br></p>
+
+		<h3  style="color: white;">Buttons</h3>
+		 <style="color: white;"><input type="submit" name="cmdSubmit value="submit" ><br><br>
+		<input type="reset" name="cmdReset" value="clear Form"></style></p>
+		
+
+</body>
+</html>
